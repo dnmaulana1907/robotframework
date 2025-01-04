@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.1 on win32)" generated="2025-01-05T00:12:31.948892" rpa="false" schemaversion="5">
+<suite id="s1" name="OpenBrowser" source="D:\PyProject\robotframework\RobotFrameworkLib\OpenBrowser.robot">
+<test id="s1-t1" name="Open Browser Test" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-05T00:12:37.194056" level="INFO">Opening browser 'chrome' to base url 'http://google.com'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-05T00:12:37.193059" elapsed="24.691688"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-05T00:13:01.886744" elapsed="2.459310"/>
+</kw>
+<status status="PASS" start="2025-01-05T00:12:37.192061" elapsed="27.155986"/>
+</test>
+<status status="PASS" start="2025-01-05T00:12:31.957866" elapsed="32.398158"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="OpenBrowser">OpenBrowser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
